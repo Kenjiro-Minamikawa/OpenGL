@@ -2,8 +2,9 @@
 #include<GL/glut.h>
 
 void disp(void){
-    glClearColor(1, 1, 1, 0);
+    glClearColor(1, 0, 0, 1);
     glClear(GL_COLOR_BUFFER_BIT);
+    glFlush();
 }
 
 int main(int argc, char** argv){
